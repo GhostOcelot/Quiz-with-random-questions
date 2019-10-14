@@ -5,15 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 
 <body>
+  <header class='py-4'>
+    <h1>
+      Wielki quiz językoznawczy
+    </h1>
+  </header>
+
+  <div class="output py-4 d-none">
+    <p>Twój wynik to <span class='h2'>100%</span></p>
+  </div>
+
   <form>
-    <!-- <input type="button" value="Add question"> -->
     <div class='append'></div>
+    
+    <div class='check-result'>
+        <input type="button" class='result-button btn btn-primary m-4' value='Sprawdź wynik'>
+    </div>
+
   </form>
-  <script src="main.js"></script>
+  <script type='module' src="main.js"></script>
 </body>
 
 </html>

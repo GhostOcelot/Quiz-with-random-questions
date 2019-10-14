@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}  
+
+header {
+  background-color: white;
+}
+
+.output {
+  background-color: #eee;
+}
+
+span {
+  color: #0275D8
+}
+
+h1 {
+  text-align: center;
+  color: #0275D8 
+}
+
+p {
+  color: #333;
+  text-align: center
+}
+
+.result {
+  background-color: #eee;
+}
+
+.result span {
+  color: #0275D8;
+  font-size: 40px
+}
+
+.check-result {
+  text-align: center
+}
+
+.quiz {
+  background-color: #0275D8
+}
+
+.question {
+  background-color:  #0275D8
+}
+
+.question:nth-child(odd) {
+  background-color:  #0265c2
+}
